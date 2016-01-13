@@ -180,6 +180,188 @@
             
             
               
+                <a class="post-title-link" href="/2016/01/13/十分钟建立个人博客—实际用了两天/" itemprop="url">
+                  未命名
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            发表于
+            <time itemprop="dateCreated" datetime="2016-01-13T18:47:38+08:00" content="2016-01-13">
+              2016-01-13
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/01/13/十分钟建立个人博客—实际用了两天/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/13/十分钟建立个人博客—实际用了两天/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <span itemprop="articleBody">
+            
+              <h1 id="u5341_u5206_u949F_u5EFA_u7ACB_u4E2A_u4EBA_u535A_u5BA2_u2014_u5B9E_u9645_u7528_u4E86_u4E24_u5929"><a href="#u5341_u5206_u949F_u5EFA_u7ACB_u4E2A_u4EBA_u535A_u5BA2_u2014_u5B9E_u9645_u7528_u4E86_u4E24_u5929" class="headerlink" title="十分钟建立个人博客—实际用了两天"></a>十分钟建立个人博客—实际用了两天</h1><blockquote>
+<p>在网上看到通过Github Pages技术、Hexo来急速建站的方法，很有意思就试了一下，下面是过程中的一些记录和问题解决方法</p>
+</blockquote>
+<p>###参考资料<br>1.主要思路：所有思路都来自于这篇博客<a href="http://blog.shijinrong.cn/2016/01/03/2016-01-03-how-to-build-blog/" target="_blank" rel="external">十分钟建站</a>。<br>2.Hexo主题：这篇博客的Hexo主题不错，名叫next。下面是主题相关的配置方法：<br><a href="http://theme-next.iissnan.com/five-minutes-setup.html" target="_blank" rel="external">next五分钟快速安装</a><br><a href="http://theme-next.iissnan.com/third-party-services.html" target="_blank" rel="external">next第三方服务</a><br><a href="http://theme-next.iissnan.com/tag-plugins.html" target="_blank" rel="external">主题内建样式</a></p>
+<p>###过程问题</p>
+<blockquote>
+<p>1.如何使用多说</p>
+</blockquote>
+<p>next可以使用多说来实现对文章的评论，Hexo中如何使用多说参考<a href="http://dev.duoshuo.com/threads/541d3b2b40b5abcd2e4df0e9" target="_blank" rel="external">Hexo使用多说教程</a>，发现在网站配置文件(_config.yml)中直接配置duoshuo_shortname就可以，不需要配置后面的代码。duoshuo_shortname的获得方法见网页<a href="http://duoshuo.com/create-site/" target="_blank" rel="external">多说创建网站</a>；至于其中什么是多说的duoshuo_shortname，<a href="http://blog.shijinrong.cn/2016/01/03/2016-01-03-how-to-build-blog/" target="_blank" rel="external">十分钟建站</a>中有详细的描述。</p>
+<blockquote>
+<p>2.无法将程序完整提交到Github</p>
+</blockquote>
+<p>在本地测试完成后，出现了无法完整提交代码到Github的情况，发现其中的next主题是通过git clone下载的，在提交时，也提交了next，而next我不是contributor，所以无法提交。<strong>解决的办法</strong>就是在next的github网页下载稳定版代码的zip包，解压，放入项目。清空Github中的所有代码，重新提交后成功。</p>
+<blockquote>
+<p>3.Hexo配置完成后无法部署</p>
+</blockquote>
+<p>提交代码后，进入本地项目根目录，输入Hexo g生成静态页面，Hexo d完成最终部署。在部署过程中出现<strong>ERROR Deployer not found: git</strong>错误，通过 npm install hexo-deployer-git –save最终解决该问题。</p>
+<p>最后，还可以给自己的网站添加一个好的域名，我比较懒就没有弄。另外，<a href="http://blog.shijinrong.cn/2016/01/03/2016-01-03-how-to-build-blog/" target="_blank" rel="external">十分钟建站</a>最后的几篇参考文章可以以后细看，如：<br><a href="http://www.jianshu.com/p/73779eacb494" target="_blank" rel="external">Hexo 静态博客使用指南</a>介绍了Hexo的安装，配置，部署和更新方法。<a href="http://cnfeat.com/blog/2014/05/10/how-to-build-a-blog/" target="_blank" rel="external">如何搭建一个独立博客——简明 Github Pages与 jekyll 教程</a>介绍了Github Pages技术的使用方法。<a href="http://www.arao.me/2015/hexo-next-theme-optimize-seo/" target="_blank" rel="external">动动手指，不限于NexT主题的Hexo优化（SEO篇）</a>介绍了Next主题的优化技术。</p>
+
+            
+          </span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                <a class="post-title-link" href="/2016/01/13/test/" itemprop="url">
+                  test
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            发表于
+            <time itemprop="dateCreated" datetime="2016-01-13T18:46:04+08:00" content="2016-01-13">
+              2016-01-13
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/01/13/test/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/01/13/test/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body">
+
+      
+      
+
+      
+        
+          <span itemprop="articleBody">
+            
+              
+            
+          </span>
+        
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
                 <a class="post-title-link" href="/2016/01/12/hello-world/" itemprop="url">
                   Hello World
                 </a>
@@ -293,7 +475,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">1</span>
+              <span class="site-state-item-count">3</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
